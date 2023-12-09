@@ -45,3 +45,18 @@ header {
   width: 70%;
   object-fit: cover;
 }
+
+#navbar ul {
+  display: flex;
+  gap: 6rem;
+}
+
+#navbar a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--grey-color);
+}
+
+#navbar li {
+  list-style-type: none;
+}
