@@ -151,3 +151,28 @@ header {
 .grid-picture:nth-child(2) img {
   object-position: 0cm -1.75cm;
 }
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--grey-color);
+  min-height: 40rem;
+}
+
+.quote-text {
+  max-width: 80rem;
+}
+
+.quote-text blockquote {
+  font-size: 3.6rem;
+  font-style: italic;
+  color: var(--dark-color);
+}
+
+.quote-text p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
