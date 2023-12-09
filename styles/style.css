@@ -217,3 +217,13 @@ header {
 .action-button:hover {
   cursor: pointer;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-color);
+  min-height: 10rem;
+  font-size: 1.8rem;
+  color: var(--grey-color);
+}
